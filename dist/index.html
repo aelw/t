@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <title>CodePen - Free Tarot Draw!</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Serif+Pro">
-<main>
-
+  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@600&display=swap" rel="stylesheet">
+   
 <style>
+  html {font-family: 'Azeret Mono', monospace;}
 button {
+  background:0;
     display: flex;
     overflow: hidden;
     margin: 10px;
@@ -43,6 +43,12 @@ button {
     box-shadow: 2px 5px 10px var(--color-smoke);
 }  
 </style>
+  
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Serif+Pro">
+<main>
  
   <button onclick="draw_celtic_cross()"> Click for your reading!</button>
   <button onclick="erase_display()"> Clear results </button>
