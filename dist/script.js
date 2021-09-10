@@ -1810,7 +1810,19 @@ var is_reversed = function (direction) {
   }
 };
 
+var erase_display = function () {
+  document.getElementById("results").innerHTML = "";
+  var i = 0;
+  for (i = 0; i < 10; i++) {
+    var j = i + 1;
+    document.getElementById("celtic-num-" + j).innerHTML = "";
+  }
+};
+
 var draw_celtic_cross = function () {
+  
+  erase_display();
+  
   console.log("inside draw_celtic_cross fct");
   //select randomized celtic indices
   var indices = draw_celtic_indices();
@@ -1875,11 +1887,3 @@ var draw_cross_graphic = function (array) {
   return;
 };
 
-var erase_display = function () {
-  document.getElementById("results").innerHTML = "";
-  var i = 0;
-  for (i = 0; i < 10; i++) {
-    var j = i + 1;
-    document.getElementById("celtic-num-" + j).innerHTML = "";
-  }
-};
