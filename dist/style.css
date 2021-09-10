@@ -11,18 +11,11 @@ body {
   font-family: "Source Serif Pro", serif;
   text-align: center;
   background-color: black;
-  background-image: url("https://cdn.pixabay.com/photo/2018/08/08/08/26/northern-hemisphere-3591569_1280.jpg");
 }
 
 .container {
-  text-align: center;
-  background: #fff;
-  opacity: 0.95;
-  width: 90%;
-  min-height: 100vh;
-  height: auto;
+  width: 95%;
   margin: 0px auto;
-  padding: 10px;
 }
 
 /*sets default img size*/
