@@ -165,8 +165,6 @@ div.explanation {
   .grid-container-staff-part {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
 /*     border: 5px dashed aqua; */
   }
 
