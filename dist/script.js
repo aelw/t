@@ -1863,7 +1863,7 @@ var draw_cross_graphic = function (array) {
     document.getElementById("celtic-num-" + j).innerHTML +=
       "<img src= '" +
       array[i]["img"] +
-      "' width=125 height=auto id='cc-img-num-" +
+      "' width=55 height=auto id='cc-img-num-" +
       j +
       "'>";
     if (is_reversed(array[i]["direction"])) {
