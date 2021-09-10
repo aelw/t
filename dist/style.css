@@ -4,15 +4,16 @@
 }
 
 body {
+  color:#fff
   width: 95%;
   margin: 0 auto;
   padding: 10px;
   box-sizing: border-box;
   text-align: center;
-  background:url('https://blog.kakaocdn.net/dn/bnUtv5/btqDvgSRHKx/9x5toEXSTwjhzWXC9ZC31K/img.jpg');background-attachment:fixed;background-size:cover;background-position:center;background-repeat:no-repeat
+  background:url('https://i.imgur.com/pUJJKIw.jpg');background-attachment:fixed;background-size:cover;background-position:center;background-repeat:no-repeat
 }
 
-/*sets default img size*/
+/*sets default img size https://blog.kakaocdn.net/dn/bnUtv5/btqDvgSRHKx/9x5toEXSTwjhzWXC9ZC31K/img.jpg*/
 
 div.explanation {
   font-size: 14px;
